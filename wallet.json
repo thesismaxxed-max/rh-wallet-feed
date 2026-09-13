@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "generated_at_unix": 1789264348,
+  "chain_id": 4663,
+  "latest_block": 61579724,
+  "wallet": "0x266f988ad1cb827863b25fa161bfab6d23b05de5",
+  "native_eth": "0.006322774563966534",
+  "holding_count": 13,
+  "holdings": [
+    {
+      "contract": "0x0aa0b791f870d8c6f7dd310639c61991bb3e5d41",
+      "known_label": null,
+      "symbol": "FROTH",
+      "decimals": 18,
+      "balance_raw": "11782885643161707318501",
+      "balance": "11782.885643161707318501",
+      "total_supply_raw": "122408836607622000000000000",
+      "newly_discovered": false,
+      "pricing": {
+        "usd_price": null,
+        "position_value_usd": null,
+        "price_confidence": {
+          "label": "UNVERIFIED",
+          "score": 0
+        },
+        "reason": "NO_VERIFIED_POOL_IN_CACHE"
+      }
+    },
+    {
+      "contract": "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
+      "known_label": null,
+      "symbol": "HOOKR",
+      "decimals": 18,
+      "balance_raw": "16645796029510908018449",
+      "balance": "16645.796029510908018449",
+      "total_supply_raw": "1000000000000000000000000000",
+      "newly_discovered": false,
+      "pricing": {
+        "contract": "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
+        "block": 61581430,
+        "usd_price": 0.01060456117194284,
+        "position_value_usd": 176.52136225063168,
+        "eth_usd": 2524.8895157731736,
+        "price_confidence": {
+          "label": "MEDIUM",
+          "score": 69
+        },
+        "pricing_route": [
+          "HOOKR",
+          "ETH",
+          "USDG"
+        ],
+        "pricing_hops": [
+          {
+            "contract": "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
+            "pool_id": "0x590dcb6a87828bf688b48089a62239b693378f1fb64d2286e6a399ed8c005fdf",
+            "token_side": "currency1",
+            "quote_asset": "ETH",
+            "quote_contract": null,
+            "quote_per_token": 4.20000998289048e-06,
+            "active_liquidity_raw": "73475795522317382274249",
+            "tick": 123810,
+            "poolkey_verified": false,
+            "verification": "EXACT_TOKEN_TRANSFER_SWAP_ACTIVITY_PLUS_STATEVIEW"
+          }
+        ],
+        "source": "robinhood_uniswap_v4_recursive_stateview"
+      }
+    },
+    {
+      "contract": "0x1dce20ae26970956cb6570dbfec9b7427f523143",
+      "known_label": null,
+      "symbol": "TOKEN",
+      "decimals": 18,
+      "balance_raw": "1000000000000000000000",
+      "balance": "1000",
+      "total_supply_raw": "1000000000000000000000000000",
+      "newly_discovered": false,
+      "pricing": {
+        "usd_price": null,
+        "position_value_usd": null,
+        "price_confidence": {
+          "label": "UNVERIFIED",
+          "score": 0
+        },
+        "reason": "NO_VERIFIED_POOL_IN_CACHE"
+      }
+    },
+    {
+      "contract": "0x451b42a15100c340ca12f7c66de06fac5ea2d751",
+      "known_label": null,
+      "symbol": "BOW",
+      "decimals": 18,
+      "balance_raw": "27041103154726015798240",
+      "balance": "27041.10315472601579824",
+      "total_supply_raw": "1000000000000000000000000000",
+      "newly_discovered": false,
+      "pricing": {
+        "contract": "0x451b42a15100c340ca12f7c66de06fac5ea2d751",
+        "block": 61581430,
+        "usd_price": 0.007271217425468779,
+        "position_value_usd": 196.6217404625426,
+        "eth_usd": 2524.8895157731736,
+        "price_confidence": {
+          "label": "MEDIUM",
+          "score": 69
+        },
+        "pricing_route": [
+          "BOW",
+          "USDG"
+        ],
+        "pricing_hops": [
+          {
+            "contract": "0x451b42a15100c340ca12f7c66de06fac5ea2d751",
+            "pool_id": "0xb5a2e44d7af38b0dfb3d393a0840fd8862683f7a9605551fc2004119553ec8d9",
+            "token_side": "currency0",
+            "quote_asset": "USDG",
+            "quote_contract": null,
+            "quote_per_token": 0.007271217425468779,
+            "active_liquidity_raw": "1196969871293603679",
+            "tick": -325565,
+            "poolkey_verified": false,
+            "verification": "EXACT_TOKEN_TRANSFER_SWAP_ACTIVITY_PLUS_STATEVIEW"
+          }
+        ],
+        "source": "robinhood_uniswap_v4_recursive_stateview"
+      }
+    },
+    {
+      "contract": "0x462dff4be800c77a61e69dc2ea6010e4237f674d",
+      "known_label": null,
+      "symbol": "SWARM",
+      "decimals": 18,
+      "balance_raw": "207005436935536170723623",
+      "balance": "207005.436935536170723623",
+      "total_supply_raw": "1000000000000000000000000000",
+      "newly_discovered": false,
+      "pricing": {
+        "contract": "0x462dff4be800c77a61e69dc2ea6010e4237f674d",
+        "block": 61581430,
+        "usd_price": 0.00032542158352024823,
+        "position_value_usd": 67.36403708486307,
+        "eth_usd": 2524.8895157731736,
+        "price_confidence": {
+          "label": "MEDIUM",
+          "score": 69
+        },
+        "pricing_route": [
+          "SWARM",
+          "ETH",
+          "USDG"
+        ],
+        "pricing_hops": [
+          {
+            "contract": "0x462dff4be800c77a61e69dc2ea6010e4237f674d",
+            "pool_id": "0x0688e65da58f50858f1c0b35b79cd703987f398104bbc910aed245c42a279f5c",
+            "token_side": "currency1",
+            "quote_asset": "ETH",
+            "quote_contract": null,
+            "quote_per_token": 1.2888547458703254e-07,
+            "active_liquidity_raw": "29277002188455996191724",
+            "tick": 158651,
+            "poolkey_verified": false,
+            "verification": "EXACT_TOKEN_TRANSFER_SWAP_ACTIVITY_PLUS_STATEVIEW"
+          }
+        ],
+        "source": "robinhood_uniswap_v4_recursive_stateview"
+      }
+    },
+    {
+      "contract": "0x482b31e9741ac12b52b7f9b750f7917db1b3d6b9",
+      "known_label": null,
+      "symbol": "PONS",
+      "decimals": 18,
+      "balance_raw": "10000000000000000000",
+      "balance": "10",
+      "total_supply_raw": "1000000000000000000000000000",
+      "newly_discovered": false,
+      "pricing": {
+        "usd_price": null,
+        "position_value_usd": null,
+        "price_confidence": {
+          "label": "UNVERIFIED",
+          "score": 0
+        },
+        "reason": "NO_VERIFIED_POOL_IN_CACHE"
+      }
+    },
+    {
+      "contract": "0x4c67b87b83437c698a8a3a3777f20d81c58d8888",
+      "known_label": "PANDA",
+      "symbol": "PANDA",
+      "decimals": 18,
+      "balance_raw": "2869821996414708911738270",
+      "balance": "2869821.99641470891173827",
+      "total_supply_raw": "1000000000000000000000000000",
+      "newly_discovered": false,
+      "pricing": {
+        "contract": "0x4c67b87b83437c698a8a3a3777f20d81c58d8888",
+        "block": 61581430,
+        "usd_price": 2.0272838137791428e-05,
+        "position_value_usd": 58.179436817588844,
+        "eth_usd": 2524.8895157731736,
+        "price_confidence": {
+          "label": "LOW",
+          "score": 47
+        },
+        "pricing_route": [
+          "PANDA",
+          "SNOW",
+          "ETH",
+          "USDG"
+        ],
+        "pricing_hops": [
+          {
+            "contract": "0x4c67b87b83437c698a8a3a3777f20d81c58d8888",
+            "pool_id": "0x972ad45febe3a4f4949e1f702c72c196e46271338c1a02d9c7949c3b9fc08f57",
+            "token_side": "currency0",
+            "quote_asset": "SNOW",
+            "quote_contract": "0xb851cebcbcf1dc5f07d9f0a8276cae8d953b3713",
+            "quote_per_token": 0.08142771099057253,
+            "active_liquidity_raw": "35108602566008733930025714",
+            "tick": -25082,
+            "poolkey_verified": false,
+            "verification": "EXACT_TOKEN_TRANSFER_SWAP_ACTIVITY_PLUS_STATEVIEW"
+          },
+          {
+            "contract": "0xb851cebcbcf1dc5f07d9f0a8276cae8d953b3713",
+            "pool_id": "0x57210a17c7116990f590d033ee309f4b72ca44100e767d2ad91c284444bd36fd",
+            "token_side": "currency1",
+            "quote_asset": "ETH",
+            "quote_contract": null,
+            "quote_per_token": 9.860522930339608e-08,
+            "active_liquidity_raw": "192003590146381556008183",
+            "tick": 161329,
+            "poolkey_verified": false,
+            "verification": "EXACT_TOKEN_TRANSFER_SWAP_ACTIVITY_PLUS_STATEVIEW"
+          }
+        ],
+        "source": "robinhood_uniswap_v4_recursive_stateview"
+      }
+    },
+    {
+      "contract": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+      "known_label": "USDG",
+      "symbol": "USDG",
+      "decimals": 6,
+      "balance_raw": "500400009",
+      "balance": "500.400009",
+      "total_supply_raw": "713950119087296",
+      "newly_discovered": false,
+      "pricing": {
+        "usd_price": 1.0,
+        "position_value_usd": 500.400009,
+        "price_confidence": {
+          "label": "HIGH",
+          "score": 100
+        },
+        "pricing_route": [
+          "USDG"
+        ],
+        "source": "USDG_nominal"
+      }
+    },
+    {
+      "contract": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
+      "known_label": "FRONG",
+      "symbol": "FRONG",
+      "decimals": 18,
+      "balance_raw": "230364874198106857098197",
+      "balance": "230364.874198106857098197",
+      "total_supply_raw": "1000000000000000000000000000",
+      "newly_discovered": false,
+      "pricing": {
+        "contract": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
+        "block": 61581430,
+        "usd_price": 0.006849980613902393,
+        "position_value_usd": 1577.9949223810956,
+        "eth_usd": 2524.8895157731736,
+        "price_confidence": {
+          "label": "HIGH",
+          "score": 100
+        },
+        "pricing_route": [
+          "FRONG",
+          "ETH",
+          "USDG"
+        ],
+        "pricing_hops": [
+          {
+            "contract": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
+            "pool_id": "0xacea8920877840033f0275c37f9b61550b5326917e948bcf8339714d96f9521a",
+            "token_side": "currency1",
+            "quote_asset": "ETH",
+            "quote_contract": null,
+            "quote_per_token": 2.712982319071806e-06,
+            "active_liquidity_raw": "97151744545265033834667",
+            "tick": 128181,
+            "poolkey_verified": true,
+            "verification": "POOLKEY_HASH_MATCH"
+          }
+        ],
+        "source": "robinhood_uniswap_v4_recursive_stateview"
+      }
+    },
+    {
+      "contract": "0x7233c2f1337ba156942e84c2e1c78d8af0f5de26",
+      "known_label": null,
+      "symbol": "JACAPAGUA",
+      "decimals": 18,
+      "balance_raw": "611212005819451602866684",
+      "balance": "611212.005819451602866684",
+      "total_supply_raw": "1000000000000000000000000000",
+      "newly_discovered": false,
+      "pricing": {
+        "usd_price": null,
+        "position_value_usd": null,
+        "price_confidence": {
+          "label": "UNVERIFIED",
+          "score": 0
+        },
+        "reason": "NO_VERIFIED_POOL_IN_CACHE"
+      }
+    },
+    {
+      "contract": "0x7ec1ffe06c5fe6145035af1fdbc1b186792a22e0",
+      "known_label": null,
+      "symbol": "ChatGpt",
+      "decimals": 18,
+      "balance_raw": "8000000000000000000",
+      "balance": "8",
+      "total_supply_raw": "800000000000000000000000000000",
+      "newly_discovered": false,
+      "pricing": {
+        "usd_price": null,
+        "position_value_usd": null,
+        "price_confidence": {
+          "label": "UNVERIFIED",
+          "score": 0
+        },
+        "reason": "NO_VERIFIED_POOL_IN_CACHE"
+      }
+    },
+    {
+      "contract": "0x8ba05220210bcba1335451175f8581bf1c82ab99",
+      "known_label": null,
+      "symbol": "PXBEAR",
+      "decimals": null,
+      "balance_raw": "1",
+      "balance": null,
+      "total_supply_raw": "42",
+      "newly_discovered": false,
+      "pricing": {
+        "usd_price": null,
+        "position_value_usd": null,
+        "price_confidence": {
+          "label": "UNVERIFIED",
+          "score": 0
+        },
+        "reason": "NO_VERIFIED_POOL_IN_CACHE"
+      }
+    },
+    {
+      "contract": "0xb851cebcbcf1dc5f07d9f0a8276cae8d953b3713",
+      "known_label": "SNOW",
+      "symbol": "SNOW",
+      "decimals": 18,
+      "balance_raw": "11204892022145766835787164",
+      "balance": "11204892.022145766835787164",
+      "total_supply_raw": "1000000000000000000000000000",
+      "newly_discovered": false,
+      "pricing": {
+        "contract": "0xb851cebcbcf1dc5f07d9f0a8276cae8d953b3713",
+        "block": 61581430,
+        "usd_price": 0.0002489673096685545,
+        "position_value_usd": 2789.6518218802807,
+        "eth_usd": 2524.8895157731736,
+        "price_confidence": {
+          "label": "MEDIUM",
+          "score": 59
+        },
+        "pricing_route": [
+          "SNOW",
+          "ETH",
+          "USDG"
+        ],
+        "pricing_hops": [
+          {
+            "contract": "0xb851cebcbcf1dc5f07d9f0a8276cae8d953b3713",
+            "pool_id": "0x57210a17c7116990f590d033ee309f4b72ca44100e767d2ad91c284444bd36fd",
+            "token_side": "currency1",
+            "quote_asset": "ETH",
+            "quote_contract": null,
+            "quote_per_token": 9.860522930339608e-08,
+            "active_liquidity_raw": "192003590146381556008183",
+            "tick": 161329,
+            "poolkey_verified": false,
+            "verification": "EXACT_TOKEN_TRANSFER_SWAP_ACTIVITY_PLUS_STATEVIEW"
+          }
+        ],
+        "source": "robinhood_uniswap_v4_recursive_stateview"
+      }
+    }
+  ],
+  "changes": [],
+  "new_contracts_seen": [],
+  "enrichment": {
+    "version": "recursive_v2",
+    "generated_at_unix": 1789264469,
+    "block": 61581430,
+    "eth_usd": 2524.8895157731736,
+    "pricing_policy": "cached_pool_recursive_stateview_fail_closed"
+  },
+  "portfolio": {
+    "priced_holdings": 7,
+    "unverified_holdings": 6,
+    "priced_value_usd": 5366.733329877003
+  }
+}
