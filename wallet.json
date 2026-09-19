@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at_unix": 1789777341,
+  "generated_at_unix": 1789777676,
   "chain_id": 4663,
-  "latest_block": 66649973,
+  "latest_block": 66653342,
   "wallet": "0x266f988ad1cb827863b25fa161bfab6d23b05de5",
   "native_eth": "0.005695128737022534",
   "holding_count": 16,
@@ -37,9 +37,9 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
-        "block": 66650236,
-        "usd_price": 0.01609398721628378,
-        "position_value_usd": 439.88272555092357,
+        "block": 66653569,
+        "usd_price": 0.015891641204009835,
+        "position_value_usd": 434.3521808706491,
         "eth_usd": 2613.8347892096936,
         "price_confidence": {
           "label": "MEDIUM",
@@ -57,9 +57,9 @@
             "token_side": "currency1",
             "quote_asset": "ETH",
             "quote_contract": null,
-            "quote_per_token": 6.157232003614843e-06,
+            "quote_per_token": 6.079818536968343e-06,
             "active_liquidity_raw": "72326079108955739433349",
-            "tick": 119984,
+            "tick": 120111,
             "poolkey_verified": false,
             "verification": "EXACT_TOKEN_TRANSFER_SWAP_ACTIVITY_PLUS_STATEVIEW"
           }
@@ -154,7 +154,7 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x4c67b87b83437c698a8a3a3777f20d81c58d8888",
-        "block": 66650236,
+        "block": 66653569,
         "usd_price": 1.2409480219234055e-05,
         "position_value_usd": 35.61299929723111,
         "eth_usd": 2613.8347892096936,
@@ -204,8 +204,8 @@
       "decimals": 6,
       "balance_raw": "213361103",
       "balance": "213.361103",
-      "total_supply_raw": "703684464916405",
-      "newly_discovered": true,
+      "total_supply_raw": "703684466916405",
+      "newly_discovered": false,
       "pricing": {
         "usd_price": 1.0,
         "position_value_usd": 213.361103,
@@ -230,9 +230,9 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
-        "block": 66650236,
-        "usd_price": 0.006716372106202327,
-        "position_value_usd": 1343.2802926802458,
+        "block": 66653569,
+        "usd_price": 0.0067521274395214576,
+        "position_value_usd": 1350.4313906013165,
         "eth_usd": 2613.8347892096936,
         "price_confidence": {
           "label": "HIGH",
@@ -250,9 +250,9 @@
             "token_side": "currency1",
             "quote_asset": "ETH",
             "quote_contract": null,
-            "quote_per_token": 2.5695472927089845e-06,
+            "quote_per_token": 2.583226555632079e-06,
             "active_liquidity_raw": "101169392813201218228547",
-            "tick": 128724,
+            "tick": 128671,
             "poolkey_verified": true,
             "verification": "POOLKEY_HASH_MATCH"
           }
@@ -366,7 +366,7 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0xb851cebcbcf1dc5f07d9f0a8276cae8d953b3713",
-        "block": 66650236,
+        "block": 66653569,
         "usd_price": 0.00020893599892973411,
         "position_value_usd": 2132.1693086171,
         "eth_usd": 2613.8347892096936,
@@ -416,28 +416,18 @@
       }
     }
   ],
-  "changes": [
-    {
-      "contract": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
-      "symbol": "USDG",
-      "type": "NEW_POSITION",
-      "old_raw": "0",
-      "new_raw": "213361103"
-    }
-  ],
-  "new_contracts_seen": [
-    "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
-  ],
+  "changes": [],
+  "new_contracts_seen": [],
   "enrichment": {
     "version": "recursive_v2",
-    "generated_at_unix": 1789777341,
-    "block": 66650236,
+    "generated_at_unix": 1789777677,
+    "block": 66653569,
     "eth_usd": 2613.8347892096936,
     "pricing_policy": "cached_pool_recursive_stateview_fail_closed"
   },
   "portfolio": {
     "priced_holdings": 5,
     "unverified_holdings": 11,
-    "priced_value_usd": 4164.3064291455
+    "priced_value_usd": 4165.926982386297
   }
 }
