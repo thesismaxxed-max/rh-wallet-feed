@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at_unix": 1789818222,
+  "generated_at_unix": 1789818534,
   "chain_id": 4663,
-  "latest_block": 67055600,
+  "latest_block": 67058692,
   "wallet": "0x266f988ad1cb827863b25fa161bfab6d23b05de5",
   "native_eth": "0.005695128737022534",
   "holding_count": 16,
@@ -37,10 +37,10 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
-        "block": 67055789,
-        "usd_price": 0.014498214171437741,
-        "position_value_usd": 396.2668715742694,
-        "eth_usd": 2638.2295959197686,
+        "block": 67058892,
+        "usd_price": 0.014508035023162938,
+        "position_value_usd": 396.5352962328736,
+        "eth_usd": 2638.446334333296,
         "price_confidence": {
           "label": "MEDIUM",
           "score": 69
@@ -57,9 +57,9 @@
             "token_side": "currency1",
             "quote_asset": "ETH",
             "quote_contract": null,
-            "quote_per_token": 5.495433071428044e-06,
+            "quote_per_token": 5.498703852481027e-06,
             "active_liquidity_raw": "73513891773581801856173",
-            "tick": 121121,
+            "tick": 121116,
             "poolkey_verified": false,
             "verification": "EXACT_TOKEN_TRANSFER_SWAP_ACTIVITY_PLUS_STATEVIEW"
           }
@@ -154,10 +154,10 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x4c67b87b83437c698a8a3a3777f20d81c58d8888",
-        "block": 67055789,
-        "usd_price": 1.0717526125314233e-05,
-        "position_value_usd": 30.75739222157609,
-        "eth_usd": 2638.2295959197686,
+        "block": 67058892,
+        "usd_price": 1.0718406601984244e-05,
+        "position_value_usd": 30.759919032891016,
+        "eth_usd": 2638.446334333296,
         "price_confidence": {
           "label": "LOW",
           "score": 47
@@ -230,10 +230,10 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
-        "block": 67055789,
-        "usd_price": 0.007164342707485618,
-        "position_value_usd": 1432.8748045519553,
-        "eth_usd": 2638.2295959197686,
+        "block": 67058892,
+        "usd_price": 0.007232642689740458,
+        "position_value_usd": 1446.5348607106387,
+        "eth_usd": 2638.446334333296,
         "price_confidence": {
           "label": "HIGH",
           "score": 100
@@ -250,9 +250,9 @@
             "token_side": "currency1",
             "quote_asset": "ETH",
             "quote_contract": null,
-            "quote_per_token": 2.7155872705566803e-06,
-            "active_liquidity_raw": "101005086359847751363287",
-            "tick": 128171,
+            "quote_per_token": 2.7412506351273053e-06,
+            "active_liquidity_raw": "101006137560852927831450",
+            "tick": 128077,
             "poolkey_verified": true,
             "verification": "POOLKEY_HASH_MATCH"
           }
@@ -366,10 +366,10 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0xb851cebcbcf1dc5f07d9f0a8276cae8d953b3713",
-        "block": 67055789,
-        "usd_price": 0.00020877971644774407,
-        "position_value_usd": 2130.574462763439,
-        "eth_usd": 2638.2295959197686,
+        "block": 67058892,
+        "usd_price": 0.00020879686832284605,
+        "position_value_usd": 2130.749495796832,
+        "eth_usd": 2638.446334333296,
         "price_confidence": {
           "label": "MEDIUM",
           "score": 59
@@ -420,14 +420,14 @@
   "new_contracts_seen": [],
   "enrichment": {
     "version": "recursive_v2",
-    "generated_at_unix": 1789818223,
-    "block": 67055789,
-    "eth_usd": 2638.2295959197686,
+    "generated_at_unix": 1789818534,
+    "block": 67058892,
+    "eth_usd": 2638.446334333296,
     "pricing_policy": "cached_pool_recursive_stateview_fail_closed"
   },
   "portfolio": {
     "priced_holdings": 5,
     "unverified_holdings": 11,
-    "priced_value_usd": 4203.834634111239
+    "priced_value_usd": 4217.9406747732355
   }
 }
