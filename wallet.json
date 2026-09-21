@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at_unix": 1790023858,
+  "generated_at_unix": 1790024168,
   "chain_id": 4663,
-  "latest_block": 69097465,
+  "latest_block": 69100566,
   "wallet": "0x266f988ad1cb827863b25fa161bfab6d23b05de5",
   "native_eth": "0.005670488373690534",
   "holding_count": 17,
@@ -37,10 +37,10 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
-        "block": 69097701,
-        "usd_price": 0.016710493759664408,
-        "position_value_usd": 456.73315391138976,
-        "eth_usd": 2776.518421477655,
+        "block": 69100801,
+        "usd_price": 0.016621566736968456,
+        "position_value_usd": 454.30259021123686,
+        "eth_usd": 2783.5744559081154,
         "price_confidence": {
           "label": "MEDIUM",
           "score": 69
@@ -57,9 +57,9 @@
             "token_side": "currency1",
             "quote_asset": "ETH",
             "quote_contract": null,
-            "quote_per_token": 6.018506353280787e-06,
-            "active_liquidity_raw": "72867042059545030406852",
-            "tick": 120212,
+            "quote_per_token": 5.971303085386959e-06,
+            "active_liquidity_raw": "72879960194517952879004",
+            "tick": 120291,
             "poolkey_verified": false,
             "verification": "EXACT_TOKEN_TRANSFER_SWAP_ACTIVITY_PLUS_STATEVIEW"
           }
@@ -173,10 +173,10 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x4c67b87b83437c698a8a3a3777f20d81c58d8888",
-        "block": 69097701,
-        "usd_price": 1.0775804221770195e-05,
-        "position_value_usd": 30.92463998469459,
-        "eth_usd": 2776.518421477655,
+        "block": 69100801,
+        "usd_price": 1.0803189037594412e-05,
+        "position_value_usd": 31.003229531514695,
+        "eth_usd": 2783.5744559081154,
         "price_confidence": {
           "label": "LOW",
           "score": 47
@@ -249,10 +249,10 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
-        "block": 69097701,
-        "usd_price": 0.0060476335937216935,
-        "position_value_usd": 1209.5320055741772,
-        "eth_usd": 2776.518421477655,
+        "block": 69100801,
+        "usd_price": 0.0060699976934677,
+        "position_value_usd": 1214.0048450740323,
+        "eth_usd": 2783.5744559081154,
         "price_confidence": {
           "label": "HIGH",
           "score": 100
@@ -269,9 +269,9 @@
             "token_side": "currency1",
             "quote_asset": "ETH",
             "quote_contract": null,
-            "quote_per_token": 2.178135591300403e-06,
+            "quote_per_token": 2.1806485831856146e-06,
             "active_liquidity_raw": "103282601926293946773059",
-            "tick": 130376,
+            "tick": 130365,
             "poolkey_verified": true,
             "verification": "POOLKEY_HASH_MATCH"
           }
@@ -385,10 +385,10 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0xb851cebcbcf1dc5f07d9f0a8276cae8d953b3713",
-        "block": 69097701,
-        "usd_price": 0.00022325622109416892,
-        "position_value_usd": 2099.7006526629607,
-        "eth_usd": 2776.518421477655,
+        "block": 69100801,
+        "usd_price": 0.00022382358760997134,
+        "position_value_usd": 2105.0366734810636,
+        "eth_usd": 2783.5744559081154,
         "price_confidence": {
           "label": "MEDIUM",
           "score": 59
@@ -439,14 +439,14 @@
   "new_contracts_seen": [],
   "enrichment": {
     "version": "recursive_v2",
-    "generated_at_unix": 1790023858,
-    "block": 69097701,
-    "eth_usd": 2776.518421477655,
+    "generated_at_unix": 1790024168,
+    "block": 69100801,
+    "eth_usd": 2783.5744559081154,
     "pricing_policy": "cached_pool_recursive_stateview_fail_closed"
   },
   "portfolio": {
     "priced_holdings": 5,
     "unverified_holdings": 12,
-    "priced_value_usd": 3976.8831551332223
+    "priced_value_usd": 3984.340041297847
   }
 }
