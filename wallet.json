@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at_unix": 1790994685,
+  "generated_at_unix": 1790994985,
   "chain_id": 4663,
-  "latest_block": 78731714,
+  "latest_block": 78734805,
   "wallet": "0x266f988ad1cb827863b25fa161bfab6d23b05de5",
-  "native_eth": "0.005633369380920534",
-  "holding_count": 20,
+  "native_eth": "0.005622334580676534",
+  "holding_count": 21,
   "holdings": [
     {
       "contract": "0x0779369854d3ecdea927206718ffd7730c67b71f",
@@ -56,10 +56,10 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
-        "block": 78733207,
-        "usd_price": 0.0223113299396892,
-        "position_value_usd": 710.8543909904198,
-        "eth_usd": 2678.5069244760707,
+        "block": 78736150,
+        "usd_price": 0.022380377078699113,
+        "position_value_usd": 713.0542805569853,
+        "eth_usd": 2678.710895032072,
         "price_confidence": {
           "label": "MEDIUM",
           "score": 69
@@ -76,9 +76,9 @@
             "token_side": "currency1",
             "quote_asset": "ETH",
             "quote_contract": null,
-            "quote_per_token": 8.329763770931228e-06,
+            "quote_per_token": 8.354905757170616e-06,
             "active_liquidity_raw": "75187321823196506762206",
-            "tick": 116962,
+            "tick": 116932,
             "poolkey_verified": false,
             "verification": "EXACT_TOKEN_TRANSFER_SWAP_ACTIVITY_PLUS_STATEVIEW"
           }
@@ -110,10 +110,10 @@
       "known_label": null,
       "symbol": "KYLN",
       "decimals": 18,
-      "balance_raw": "11559062299880867693048562",
-      "balance": "11559062.299880867693048562",
+      "balance_raw": "10604829030299968000378787",
+      "balance": "10604829.030299968000378787",
       "total_supply_raw": "1000000000000000000000000000",
-      "newly_discovered": false,
+      "newly_discovered": true,
       "pricing": {
         "usd_price": null,
         "position_value_usd": null,
@@ -192,10 +192,10 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x4c67b87b83437c698a8a3a3777f20d81c58d8888",
-        "block": 78733207,
-        "usd_price": 7.901743503141618e-06,
-        "position_value_usd": 22.676597315342836,
-        "eth_usd": 2678.5069244760707,
+        "block": 78736150,
+        "usd_price": 7.902345227557929e-06,
+        "position_value_usd": 22.678324157308545,
+        "eth_usd": 2678.710895032072,
         "price_confidence": {
           "label": "LOW",
           "score": 47
@@ -268,10 +268,10 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
-        "block": 78733207,
-        "usd_price": 0.004864310780380916,
-        "position_value_usd": 972.8664084474588,
-        "eth_usd": 2678.5069244760707,
+        "block": 78736150,
+        "usd_price": 0.004864681201739686,
+        "position_value_usd": 972.9404930430343,
+        "eth_usd": 2678.710895032072,
         "price_confidence": {
           "label": "HIGH",
           "score": 100
@@ -326,6 +326,25 @@
       "balance": "611212.005819451602866684",
       "total_supply_raw": "1000000000000000000000000000",
       "newly_discovered": false,
+      "pricing": {
+        "usd_price": null,
+        "position_value_usd": null,
+        "price_confidence": {
+          "label": "UNVERIFIED",
+          "score": 0
+        },
+        "reason": "NO_VERIFIED_POOL_IN_CACHE"
+      }
+    },
+    {
+      "contract": "0x79c639dca659c02bc68bbe2e6a7a8f95a2ef2acc",
+      "known_label": null,
+      "symbol": "SNOW-LP",
+      "decimals": null,
+      "balance_raw": "1",
+      "balance": null,
+      "total_supply_raw": null,
+      "newly_discovered": true,
       "pricing": {
         "usd_price": null,
         "position_value_usd": null,
@@ -419,7 +438,7 @@
       "decimals": 18,
       "balance_raw": "1000000000000000000",
       "balance": "1",
-      "total_supply_raw": "5502115320000000000000000000",
+      "total_supply_raw": "5502115324000000000000000000",
       "newly_discovered": false,
       "pricing": {
         "usd_price": null,
@@ -436,16 +455,16 @@
       "known_label": "SNOW",
       "symbol": "SNOW",
       "decimals": 18,
-      "balance_raw": "6583424415502036785051015",
-      "balance": "6583424.415502036785051015",
+      "balance_raw": "6483424415502036785051015",
+      "balance": "6483424.415502036785051015",
       "total_supply_raw": "1000000000000000000000000000",
-      "newly_discovered": false,
+      "newly_discovered": true,
       "pricing": {
         "contract": "0xb851cebcbcf1dc5f07d9f0a8276cae8d953b3713",
-        "block": 78733207,
-        "usd_price": 0.0001925493483541348,
-        "position_value_usd": 1267.6340811436178,
-        "eth_usd": 2678.5069244760707,
+        "block": 78736150,
+        "usd_price": 0.00019256401114902346,
+        "position_value_usd": 1248.4742114305852,
+        "eth_usd": 2678.710895032072,
         "price_confidence": {
           "label": "MEDIUM",
           "score": 59
@@ -492,18 +511,37 @@
       }
     }
   ],
-  "changes": [],
-  "new_contracts_seen": [],
+  "changes": [
+    {
+      "contract": "0x3564128239f9d084614b47f917289492c66e7b68",
+      "symbol": "KYLN",
+      "type": "TRIM",
+      "old_raw": "11559062299880867693048562",
+      "new_raw": "10604829030299968000378787"
+    },
+    {
+      "contract": "0xb851cebcbcf1dc5f07d9f0a8276cae8d953b3713",
+      "symbol": "SNOW",
+      "type": "TRIM",
+      "old_raw": "6583424415502036785051015",
+      "new_raw": "6483424415502036785051015"
+    }
+  ],
+  "new_contracts_seen": [
+    "0x3564128239f9d084614b47f917289492c66e7b68",
+    "0x79c639dca659c02bc68bbe2e6a7a8f95a2ef2acc",
+    "0xb851cebcbcf1dc5f07d9f0a8276cae8d953b3713"
+  ],
   "enrichment": {
     "version": "recursive_v2",
-    "generated_at_unix": 1790994686,
-    "block": 78733207,
-    "eth_usd": 2678.5069244760707,
+    "generated_at_unix": 1790994986,
+    "block": 78736150,
+    "eth_usd": 2678.710895032072,
     "pricing_policy": "cached_pool_recursive_stateview_fail_closed"
   },
   "portfolio": {
     "priced_holdings": 5,
-    "unverified_holdings": 15,
-    "priced_value_usd": 3239.779322896839
+    "unverified_holdings": 16,
+    "priced_value_usd": 3222.8951541879132
   }
 }
