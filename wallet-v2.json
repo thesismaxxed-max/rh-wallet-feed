@@ -1,7 +1,7 @@
 {
   "alerts": [
     {
-      "evidence_block": 84477559,
+      "evidence_block": 84480483,
       "interpretation": "Wallet supplies at least 80% of liquidity active at this tick; external participation is limited at this state. This is not a pool-wide holder count or security verdict.",
       "pool_id": "0x1dc99a22c3f3e3b104019aae6da852dd8bbb9abd8a5eaaa9f9a48ce3f7151fb0",
       "type": "ACTIVE_LIQUIDITY_CONCENTRATION",
@@ -11,15 +11,15 @@
   "chain_id": 4663,
   "changes": [],
   "enrichment": {
-    "block": 84477559,
-    "generated_at_unix": 1791581734,
+    "block": 84480483,
+    "generated_at_unix": 1791582034,
     "pricing_policy": "verified_poolkeys_only",
     "version": "reconciled_v2"
   },
   "execution_verification": [
     {
       "actionability_confidence": "MEDIUM",
-      "block": 84477559,
+      "block": 84480483,
       "liquidity": {
         "active_raw": "94337253560806025647425",
         "total_pool_value_usd": null
@@ -29,24 +29,24 @@
         {
           "actionability_confidence": "MEDIUM",
           "amount_in_raw": "1000000000000000",
-          "block": 84477559,
+          "block": 84480483,
           "currency_in": "0x0000000000000000000000000000000000000000",
           "currency_out": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
           "effective_fee_pips": 2899,
-          "estimated_output_raw": "849003630798290885699",
-          "execution_shortfall_percent_including_fees": "0.29087247434990381950690724219136284412885830205796289990876071579697080437564500",
-          "expires_at_unix": 1791581792,
+          "estimated_output_raw": "848805018347565528733",
+          "execution_shortfall_percent_including_fees": "0.29087236059546137084195941730261346999079529781016673226044790969805299611486900",
+          "expires_at_unix": 1791582092,
           "failure_reasons": [],
           "fresh": true,
           "fresh_at_observation": true,
-          "gas_estimate": 43100,
+          "gas_estimate": 43068,
           "lp_fee_pips": 2500,
-          "marginal_expected_output_raw": "851480352768993346427.33818473130237767056681022770303561143689099505484159111474",
+          "marginal_expected_output_raw": "851281159952824735392.27368514264482018925383397549646561972110214053632491435839",
           "pool_id": "0xacea8920877840033f0275c37f9b61550b5326917e948bcf8339714d96f9521a",
-          "price_impact_excluding_fees": "0.00097530174967613060954431114938491098580615409869501676235478231089007470220700",
+          "price_impact_excluding_fees": "0.00097518766450075854096968842937021424188251522179471513963771944672906367045000",
           "protocol_fee_encoded": 1638800,
           "protocol_fee_pips_for_direction": 400,
-          "quote_timestamp": 1791581732,
+          "quote_timestamp": 1791582032,
           "size_label": "small",
           "slippage_tolerance_percent": null,
           "uncertainty": [
@@ -57,24 +57,24 @@
         {
           "actionability_confidence": "MEDIUM",
           "amount_in_raw": "10000000000000000",
-          "block": 84477559,
+          "block": 84480483,
           "currency_in": "0x0000000000000000000000000000000000000000",
           "currency_out": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
           "effective_fee_pips": 2899,
-          "estimated_output_raw": "8489291142137509545886",
-          "execution_shortfall_percent_including_fees": "0.29962388996361762914891030273267685953160814073256021221390598123457128714991000",
-          "expires_at_unix": 1791581792,
+          "estimated_output_raw": "8487305279088483554264",
+          "execution_shortfall_percent_including_fees": "0.29962275261885600666254421635884391945958539122557643463834703101765055507934100",
+          "expires_at_unix": 1791582093,
           "failure_reasons": [],
           "fresh": true,
           "fresh_at_observation": true,
-          "gas_estimate": 43064,
+          "gas_estimate": 43100,
           "lp_fee_pips": 2500,
-          "marginal_expected_output_raw": "8514803527689933464273.3818473130237767056681022770303561143689099505484159111474",
+          "marginal_expected_output_raw": "8512811599528247353922.7368514264482018925383397549646561972110214053632491435839",
           "pool_id": "0xacea8920877840033f0275c37f9b61550b5326917e948bcf8339714d96f9521a",
-          "price_impact_excluding_fees": "0.00975216147974741691053394062655323736673430347834393127065962348304864517226500",
+          "price_impact_excluding_fees": "0.00975102082823706591663654570484225716310122166718961733901282920952897959117700",
           "protocol_fee_encoded": 1638800,
           "protocol_fee_pips_for_direction": 400,
-          "quote_timestamp": 1791581732,
+          "quote_timestamp": 1791582033,
           "size_label": "medium",
           "slippage_tolerance_percent": null,
           "uncertainty": [
@@ -85,24 +85,24 @@
         {
           "actionability_confidence": "MEDIUM",
           "amount_in_raw": "100000000000000000000",
-          "block": 84477559,
+          "block": 84480483,
           "currency_in": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
           "currency_out": "0x0000000000000000000000000000000000000000",
           "effective_fee_pips": 2899,
-          "estimated_output_raw": "117101921923297",
-          "execution_shortfall_percent_including_fees": "0.29001421082395462658696187498955879505182996739220292956180082327862940426861700",
-          "expires_at_unix": 1791581793,
+          "estimated_output_raw": "117129322797818",
+          "execution_shortfall_percent_including_fees": "0.29001422418465428743085447960753199128618158679941905390311826939158127885108500",
+          "expires_at_unix": 1791582093,
           "failure_reasons": [],
           "fresh": true,
           "fresh_at_observation": true,
-          "gas_estimate": 42665,
+          "gas_estimate": 42637,
           "lp_fee_pips": 2500,
-          "marginal_expected_output_raw": "117442521926433.69655924334435546719507556685269782481733966060691564118563412652",
+          "marginal_expected_output_raw": "117470002514259.42335206909054042350850802870637347470530799902643073901310069315",
           "pool_id": "0xacea8920877840033f0275c37f9b61550b5326917e948bcf8339714d96f9521a",
-          "price_impact_excluding_fees": "0.00011454288377468941156600483758294801813453942198727065944254722302896523884600",
+          "price_impact_excluding_fees": "0.00011455628331963104124304318973904477699008104436667288782005974478140013006100",
           "protocol_fee_encoded": 1638800,
           "protocol_fee_pips_for_direction": 400,
-          "quote_timestamp": 1791581733,
+          "quote_timestamp": 1791582033,
           "size_label": "small",
           "slippage_tolerance_percent": null,
           "uncertainty": [
@@ -113,24 +113,24 @@
         {
           "actionability_confidence": "MEDIUM",
           "amount_in_raw": "10000000000000000000000",
-          "block": 84477559,
+          "block": 84480483,
           "currency_in": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
           "currency_out": "0x0000000000000000000000000000000000000000",
           "effective_fee_pips": 2899,
-          "estimated_output_raw": "11708864436910716",
-          "execution_shortfall_percent_including_fees": "0.30131978734942901543945726169935651885106975580258941216672274389688353804730500",
-          "expires_at_unix": 1791581793,
+          "estimated_output_raw": "11711604058327615",
+          "execution_shortfall_percent_including_fees": "0.30132112318658263199126611551246871660846887254214925865534580758657361958822100",
+          "expires_at_unix": 1791582094,
           "failure_reasons": [],
           "fresh": true,
           "fresh_at_observation": true,
           "gas_estimate": 42665,
           "lp_fee_pips": 2500,
-          "marginal_expected_output_raw": "11744252192643369.655924334435546719507556685269782481733966060691564118563412652",
+          "marginal_expected_output_raw": "11747000251425942.335206909054042350850802870637347470530799902643073901310069315",
           "pool_id": "0xacea8920877840033f0275c37f9b61550b5326917e948bcf8339714d96f9521a",
-          "price_impact_excluding_fees": "0.01145298956618137524629627459942023812138364699522857981961982176016626003515000",
+          "price_impact_excluding_fees": "0.01145432928718618474082978104772607449843984966633195499287013811697472932854300",
           "protocol_fee_encoded": 1638800,
           "protocol_fee_pips_for_direction": 400,
-          "quote_timestamp": 1791581733,
+          "quote_timestamp": 1791582034,
           "size_label": "medium",
           "slippage_tolerance_percent": null,
           "uncertainty": [
@@ -146,7 +146,7 @@
     },
     {
       "actionability_confidence": "MEDIUM",
-      "block": 84477559,
+      "block": 84480483,
       "liquidity": {
         "active_raw": "68412006341893457962697",
         "total_pool_value_usd": null
@@ -156,13 +156,13 @@
         {
           "actionability_confidence": "MEDIUM",
           "amount_in_raw": "1000000000000000",
-          "block": 84477559,
+          "block": 84480483,
           "currency_in": "0x0000000000000000000000000000000000000000",
           "currency_out": "0x385b36ff682ab4c76e7c37a66b96aabc466471d5",
           "effective_fee_pips": 2899,
           "estimated_output_raw": "4211406621193729081481",
           "execution_shortfall_percent_including_fees": "0.29288664417118698221375168159874911890269614960347112347586540842024384411684500",
-          "expires_at_unix": 1791581792,
+          "expires_at_unix": 1791582093,
           "failure_reasons": [],
           "fresh": true,
           "fresh_at_observation": true,
@@ -173,7 +173,7 @@
           "price_impact_excluding_fees": "0.00299532762597468281924467190259474105702045189351041015490447649761041671490100",
           "protocol_fee_encoded": 1638800,
           "protocol_fee_pips_for_direction": 400,
-          "quote_timestamp": 1791581732,
+          "quote_timestamp": 1791582033,
           "size_label": "small",
           "slippage_tolerance_percent": null,
           "uncertainty": [
@@ -184,13 +184,13 @@
         {
           "actionability_confidence": "MEDIUM",
           "amount_in_raw": "10000000000000000",
-          "block": 84477559,
+          "block": 84480483,
           "currency_in": "0x0000000000000000000000000000000000000000",
           "currency_out": "0x385b36ff682ab4c76e7c37a66b96aabc466471d5",
           "effective_fee_pips": 2899,
           "estimated_output_raw": "42102716183335164448934",
           "execution_shortfall_percent_including_fees": "0.31975839250175632850418024752498785138141391919382990269284449919246853764608600",
-          "expires_at_unix": 1791581793,
+          "expires_at_unix": 1791582093,
           "failure_reasons": [],
           "fresh": true,
           "fresh_at_observation": true,
@@ -201,7 +201,7 @@
           "price_impact_excluding_fees": "0.02994520364712935650869896582692009273023888171191273771949331029902541231639000",
           "protocol_fee_encoded": 1638800,
           "protocol_fee_pips_for_direction": 400,
-          "quote_timestamp": 1791581733,
+          "quote_timestamp": 1791582033,
           "size_label": "medium",
           "slippage_tolerance_percent": null,
           "uncertainty": [
@@ -212,13 +212,13 @@
         {
           "actionability_confidence": "MEDIUM",
           "amount_in_raw": "100000000000000000000",
-          "block": 84477559,
+          "block": 84480483,
           "currency_in": "0x385b36ff682ab4c76e7c37a66b96aabc466471d5",
           "currency_out": "0x0000000000000000000000000000000000000000",
           "effective_fee_pips": 2899,
           "estimated_output_raw": "23606837541801",
           "execution_shortfall_percent_including_fees": "0.28997071233181433698861400018431110622967900602480210651188961407660385491087600",
-          "expires_at_unix": 1791581793,
+          "expires_at_unix": 1791582093,
           "failure_reasons": [],
           "fresh": true,
           "fresh_at_observation": true,
@@ -229,7 +229,7 @@
           "price_impact_excluding_fees": "0.00007091792287274507659103760232023258393984764311950997129640234700783061182100",
           "protocol_fee_encoded": 1638800,
           "protocol_fee_pips_for_direction": 400,
-          "quote_timestamp": 1791581733,
+          "quote_timestamp": 1791582033,
           "size_label": "small",
           "slippage_tolerance_percent": null,
           "uncertainty": [
@@ -240,13 +240,13 @@
         {
           "actionability_confidence": "MEDIUM",
           "amount_in_raw": "10000000000000000000000",
-          "block": 84477559,
+          "block": 84480483,
           "currency_in": "0x385b36ff682ab4c76e7c37a66b96aabc466471d5",
           "currency_out": "0x0000000000000000000000000000000000000000",
           "effective_fee_pips": 2899,
           "estimated_output_raw": "2360518025177801",
           "execution_shortfall_percent_including_fees": "0.29697073664417236310965058030271181202744846158594297612041465346516335473750400",
-          "expires_at_unix": 1791581793,
+          "expires_at_unix": 1791582094,
           "failure_reasons": [],
           "fresh": true,
           "fresh_at_observation": true,
@@ -257,7 +257,7 @@
           "price_impact_excluding_fees": "0.00709129430636651965011626736179365182408648831556981300832578993017092023526800",
           "protocol_fee_encoded": 1638800,
           "protocol_fee_pips_for_direction": 400,
-          "quote_timestamp": 1791581733,
+          "quote_timestamp": 1791582034,
           "size_label": "medium",
           "slippage_tolerance_percent": null,
           "uncertainty": [
@@ -272,7 +272,7 @@
       ]
     }
   ],
-  "generated_at_unix": 1791581694,
+  "generated_at_unix": 1791581995,
   "historical_event_count": 17,
   "historical_events": [
     {
@@ -1178,7 +1178,7 @@
     {
       "balance": "1",
       "balance_raw": "1000000000000000000",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x0779369854d3ecdea927206718ffd7730c67b71f",
       "decimals": 18,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1200,7 +1200,7 @@
     {
       "balance": null,
       "balance_raw": "1",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x14c49e6118f46525de9ab41a51cbaa3c6ebf181d",
       "decimals": null,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1222,7 +1222,7 @@
     {
       "balance": "31860.69108887563181113",
       "balance_raw": "31860691088875631811130",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
       "decimals": 18,
       "identity_evidence": "Feed-observed candidate; independent canonical verification pending",
@@ -1244,7 +1244,7 @@
     {
       "balance": "1000",
       "balance_raw": "1000000000000000000000",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x1dce20ae26970956cb6570dbfec9b7427f523143",
       "decimals": 18,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1266,7 +1266,7 @@
     {
       "balance": "15",
       "balance_raw": "15000000000000000000",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x3277f3a55be95fd6b8d9f335c7f9f6db1ddafa98",
       "decimals": 18,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1288,7 +1288,7 @@
     {
       "balance": "4998484.630109488019160255",
       "balance_raw": "4998484630109488019160255",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x3564128239f9d084614b47f917289492c66e7b68",
       "decimals": 18,
       "identity_evidence": "Feed-observed candidate; symbol is not canonical proof",
@@ -1310,7 +1310,7 @@
     {
       "balance": "443183.998093989577876128",
       "balance_raw": "443183998093989577876128",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x385b36ff682ab4c76e7c37a66b96aabc466471d5",
       "decimals": 18,
       "identity_evidence": "User-specified exact contract",
@@ -1318,7 +1318,7 @@
       "newly_discovered": false,
       "pricing": {
         "actionability_confidence": "MEDIUM",
-        "block": 84477559,
+        "block": 84480483,
         "native_eth_per_token": "2.367548952743173791434846656E-7",
         "pool_id": "0x88fbd9768ccf1bf77d6946afa1b2f3ce79e02a4566ca8a3d5ba78ab04e8ef27f",
         "position_value_usd": null,
@@ -1326,7 +1326,7 @@
           "label": "MEDIUM",
           "score": 60
         },
-        "pricing_timestamp": 1791581694,
+        "pricing_timestamp": 1791581995,
         "reason": "Verified native marginal state; verified USD conversion unavailable",
         "source": "v4_stateview_poolkey_hash_verified",
         "usd_price": null
@@ -1337,7 +1337,7 @@
     {
       "balance": "2026",
       "balance_raw": "2026000000000000000000",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x3cae51882495b2a2dce68b062e5143245d2b7f5d",
       "decimals": 18,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1359,7 +1359,7 @@
     {
       "balance": "10",
       "balance_raw": "10000000000000000000",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x482b31e9741ac12b52b7f9b750f7917db1b3d6b9",
       "decimals": 18,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1381,7 +1381,7 @@
     {
       "balance": "200000.874198106857098197",
       "balance_raw": "200000874198106857098197",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
       "decimals": 18,
       "identity_evidence": "User reference and verified PoolKey",
@@ -1389,15 +1389,15 @@
       "newly_discovered": false,
       "pricing": {
         "actionability_confidence": "MEDIUM",
-        "block": 84477559,
-        "native_eth_per_token": "0.000001174425219264336965592433444",
+        "block": 84480483,
+        "native_eth_per_token": "0.000001174700025142594233520690905",
         "pool_id": "0xacea8920877840033f0275c37f9b61550b5326917e948bcf8339714d96f9521a",
         "position_value_usd": null,
         "price_confidence": {
           "label": "MEDIUM",
           "score": 60
         },
-        "pricing_timestamp": 1791581694,
+        "pricing_timestamp": 1791581995,
         "reason": "Verified native marginal state; verified USD conversion unavailable",
         "source": "v4_stateview_poolkey_hash_verified",
         "usd_price": null
@@ -1408,7 +1408,7 @@
     {
       "balance": "13",
       "balance_raw": "13000000000000000000",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x650bf9154edfb41ad65e316be31fe489ccc76eb0",
       "decimals": 18,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1430,7 +1430,7 @@
     {
       "balance": "611212.005819451602866684",
       "balance_raw": "611212005819451602866684",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x7233c2f1337ba156942e84c2e1c78d8af0f5de26",
       "decimals": 18,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1452,7 +1452,7 @@
     {
       "balance": "25",
       "balance_raw": "25000000000000000000",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x72548c880e1a1729301c49d745e0cacd0c49c48b",
       "decimals": 18,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1474,7 +1474,7 @@
     {
       "balance": null,
       "balance_raw": "2",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x79c639dca659c02bc68bbe2e6a7a8f95a2ef2acc",
       "decimals": null,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1496,7 +1496,7 @@
     {
       "balance": "8",
       "balance_raw": "8000000000000000000",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x7ec1ffe06c5fe6145035af1fdbc1b186792a22e0",
       "decimals": 18,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1518,7 +1518,7 @@
     {
       "balance": null,
       "balance_raw": "1",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x8ba05220210bcba1335451175f8581bf1c82ab99",
       "decimals": null,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1540,7 +1540,7 @@
     {
       "balance": "1",
       "balance_raw": "1000000000000000000",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x95afb21e90e60237883ef92eee8099abe55e7fd8",
       "decimals": 18,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1562,7 +1562,7 @@
     {
       "balance": "500011.894332852602244657",
       "balance_raw": "500011894332852602244657",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x990ec11982add8f24b054cf749671e93bd198888",
       "decimals": 18,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1584,7 +1584,7 @@
     {
       "balance": "20860.773396386949898865",
       "balance_raw": "20860773396386949898865",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0xa156048aa84d13b1de40dfa8288d28b2593fc35c",
       "decimals": 18,
       "identity_evidence": "User-specified exact contract",
@@ -1606,7 +1606,7 @@
     {
       "balance": "75",
       "balance_raw": "75000000000000000000",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0xa3284897ad7c8fed700b04f573cf64e4f6c10f2c",
       "decimals": 18,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1628,7 +1628,7 @@
     {
       "balance": "1",
       "balance_raw": "1000000000000000000",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0xa745ce0a0d99bbc263c0eb6355e1fdde690983ef",
       "decimals": 18,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1650,7 +1650,7 @@
     {
       "balance": "1",
       "balance_raw": "1000000000000000000",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0xb0711574537f61298d43be9cebc05d8c5e6101e9",
       "decimals": 18,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1672,7 +1672,7 @@
     {
       "balance": "20",
       "balance_raw": "20000000000000000000",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0xec90adc7157d68d9213a88627b66956950374a3e",
       "decimals": 18,
       "identity_evidence": "On-chain address observed; ticker identity unverified",
@@ -1692,10 +1692,10 @@
       "symbol": "USDG"
     }
   ],
-  "latest_block": 84477559,
+  "latest_block": 84480483,
   "liquidity_positions": [
     {
-      "block": 84477559,
+      "block": 84480483,
       "confidence": "MEDIUM",
       "contract": "0x79c639dca659c02bc68bbe2e6a7a8f95a2ef2acc",
       "evidence": {
@@ -1748,8 +1748,8 @@
       },
       "pool_state": {
         "active_liquidity_raw": "2575733394589851879004920",
-        "block": 84477559,
-        "fetched_at_unix": 1791581726,
+        "block": 84480483,
+        "fetched_at_unix": 1791582026,
         "key": {
           "chain_id": 4663,
           "currency0": "0x3564128239f9d084614b47f917289492c66e7b68",
@@ -1766,7 +1766,7 @@
           "label": "MEDIUM",
           "reason": "Current verified pool marginal state; manipulation and economic depth need independent assessment"
         },
-        "pricing_timestamp": 1791581694,
+        "pricing_timestamp": 1791581995,
         "protocol_fee": 0,
         "sqrt_price_x96": "25808991673042578371571568247",
         "tick": -22434
@@ -1798,7 +1798,7 @@
       ]
     },
     {
-      "block": 84477559,
+      "block": 84480483,
       "confidence": "MEDIUM",
       "contract": "0x79c639dca659c02bc68bbe2e6a7a8f95a2ef2acc",
       "evidence": {
@@ -1851,8 +1851,8 @@
       },
       "pool_state": {
         "active_liquidity_raw": "2575733394589851879004920",
-        "block": 84477559,
-        "fetched_at_unix": 1791581726,
+        "block": 84480483,
+        "fetched_at_unix": 1791582027,
         "key": {
           "chain_id": 4663,
           "currency0": "0x3564128239f9d084614b47f917289492c66e7b68",
@@ -1869,7 +1869,7 @@
           "label": "MEDIUM",
           "reason": "Current verified pool marginal state; manipulation and economic depth need independent assessment"
         },
-        "pricing_timestamp": 1791581694,
+        "pricing_timestamp": 1791581995,
         "protocol_fee": 0,
         "sqrt_price_x96": "25808991673042578371571568247",
         "tick": -22434
@@ -1937,8 +1937,8 @@
   },
   "pool_activity": [
     {
-      "first_block": 84427560,
-      "last_block": 84477559,
+      "first_block": 84430484,
+      "last_block": 84480483,
       "lp_participant_count": null,
       "method": "Absolute core swap deltas in bounded window; not USD volume or lifetime history",
       "pool_id": "0x1dc99a22c3f3e3b104019aae6da852dd8bbb9abd8a5eaaa9f9a48ce3f7151fb0",
@@ -1954,8 +1954,8 @@
   "pool_verification": [
     {
       "active_liquidity_raw": "94337253560806025647425",
-      "block": 84477559,
-      "fetched_at_unix": 1791581732,
+      "block": 84480483,
+      "fetched_at_unix": 1791582032,
       "key": {
         "chain_id": 4663,
         "currency0": "0x0000000000000000000000000000000000000000",
@@ -1974,15 +1974,15 @@
         "label": "MEDIUM",
         "reason": "Current verified pool marginal state; manipulation and economic depth need independent assessment"
       },
-      "pricing_timestamp": 1791581694,
+      "pricing_timestamp": 1791581995,
       "protocol_fee": 1638800,
-      "sqrt_price_x96": "73108336050096990716302679046280",
-      "tick": 136554
+      "sqrt_price_x96": "73099784175070330462274085165458",
+      "tick": 136551
     },
     {
       "active_liquidity_raw": "68412006341893457962697",
-      "block": 84477559,
-      "fetched_at_unix": 1791581732,
+      "block": 84480483,
+      "fetched_at_unix": 1791582032,
       "key": {
         "chain_id": 4663,
         "currency0": "0x0000000000000000000000000000000000000000",
@@ -2004,7 +2004,7 @@
         "label": "MEDIUM",
         "reason": "Current verified pool marginal state; manipulation and economic depth need independent assessment"
       },
-      "pricing_timestamp": 1791581694,
+      "pricing_timestamp": 1791581995,
       "protocol_fee": 1638800,
       "sqrt_price_x96": "162828379233371799561708368792780",
       "tick": 152570
@@ -2020,14 +2020,14 @@
     "verified_cash_nominal_usd": "0"
   },
   "scan_metadata": {
-    "block": 84477559,
-    "block_hash": "0x5cde3485be7d9a0299bf853ef423a325c9176efe412f55decb72119750e76761",
-    "block_timestamp": 1791581694,
+    "block": 84480483,
+    "block_hash": "0x3ebd0d1a4f7397cf9f892585d31ce053569b9c6c9415fb253b1de6dd84b4652a",
+    "block_timestamp": 1791581995,
     "confirmation_depth_assumption": 64,
     "history_start": 68179000,
-    "observed_at_unix": 1791581734,
+    "observed_at_unix": 1791582034,
     "status": "COMPLETE_DIRECT_OBSERVATIONS",
-    "transaction_cursor": 84477559
+    "transaction_cursor": 84480483
   },
   "schema_version": 2,
   "source_health": {
@@ -3211,7 +3211,7 @@
     {
       "balance": "0",
       "balance_raw": "0",
-      "block": 84477559,
+      "block": 84480483,
       "contract": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
       "decimals": 6,
       "market_value_usd": null,
