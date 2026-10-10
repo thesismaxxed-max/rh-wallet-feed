@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at_unix": 1791669204,
+  "generated_at_unix": 1791669531,
   "chain_id": 4663,
-  "latest_block": 85328377,
+  "latest_block": 85331569,
   "wallet": "0x266f988ad1cb827863b25fa161bfab6d23b05de5",
   "native_eth": "0.02283943227705042",
   "holding_count": 23,
@@ -56,9 +56,9 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
-        "block": 85328704,
-        "usd_price": 0.018005645169878494,
-        "position_value_usd": 573.6722986134042,
+        "block": 85331882,
+        "usd_price": 0.01799254617119739,
+        "position_value_usd": 573.2549554628521,
         "eth_usd": 2506.942687663131,
         "price_confidence": {
           "label": "MEDIUM",
@@ -76,9 +76,9 @@
             "token_side": "currency1",
             "quote_asset": "ETH",
             "quote_contract": null,
-            "quote_per_token": 7.1823122476974595e-06,
+            "quote_per_token": 7.177087158689417e-06,
             "active_liquidity_raw": "77655834739852448584808",
-            "tick": 118444,
+            "tick": 118452,
             "poolkey_verified": false,
             "verification": "EXACT_TOKEN_TRANSFER_SWAP_ACTIVITY_PLUS_STATEVIEW"
           }
@@ -211,7 +211,7 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
-        "block": 85328704,
+        "block": 85331882,
         "usd_price": 0.0029679322038599154,
         "position_value_usd": 593.589035332697,
         "eth_usd": 2506.942687663131,
@@ -493,14 +493,14 @@
   "new_contracts_seen": [],
   "enrichment": {
     "version": "recursive_v2",
-    "generated_at_unix": 1791669204,
-    "block": 85328704,
+    "generated_at_unix": 1791669531,
+    "block": 85331882,
     "eth_usd": 2506.942687663131,
     "pricing_policy": "cached_pool_recursive_stateview_fail_closed"
   },
   "portfolio": {
     "priced_holdings": 2,
     "unverified_holdings": 21,
-    "priced_value_usd": 1167.2613339461013
+    "priced_value_usd": 1166.843990795549
   }
 }
