@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at_unix": 1791714040,
+  "generated_at_unix": 1791714344,
   "chain_id": 4663,
-  "latest_block": 85758740,
+  "latest_block": 85761668,
   "wallet": "0x266f988ad1cb827863b25fa161bfab6d23b05de5",
   "native_eth": "0.02279105026112442",
   "holding_count": 24,
@@ -33,7 +33,7 @@
       "decimals": 18,
       "balance_raw": "211866872476840",
       "balance": "0.00021186687247684",
-      "total_supply_raw": "38363441497963944327715",
+      "total_supply_raw": "38246140052444868700825",
       "newly_discovered": false,
       "pricing": {
         "usd_price": null,
@@ -75,9 +75,9 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
-        "block": 85759101,
-        "usd_price": 0.019425871717158368,
-        "position_value_usd": 618.9216979125088,
+        "block": 85762026,
+        "usd_price": 0.019399019047662794,
+        "position_value_usd": 618.0661533047986,
         "eth_usd": 2499.5250218475194,
         "price_confidence": {
           "label": "MEDIUM",
@@ -95,9 +95,9 @@
             "token_side": "currency1",
             "quote_asset": "ETH",
             "quote_contract": null,
-            "quote_per_token": 7.771825265745798e-06,
+            "quote_per_token": 7.761082156850763e-06,
             "active_liquidity_raw": "78157145562028161927477",
-            "tick": 117655,
+            "tick": 117669,
             "poolkey_verified": false,
             "verification": "EXACT_TOKEN_TRANSFER_SWAP_ACTIVITY_PLUS_STATEVIEW"
           }
@@ -249,7 +249,7 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
-        "block": 85759101,
+        "block": 85762026,
         "usd_price": 0.003115955808264396,
         "position_value_usd": 623.1938856155479,
         "eth_usd": 2499.5250218475194,
@@ -512,14 +512,14 @@
   "new_contracts_seen": [],
   "enrichment": {
     "version": "recursive_v2",
-    "generated_at_unix": 1791714040,
-    "block": 85759101,
+    "generated_at_unix": 1791714344,
+    "block": 85762026,
     "eth_usd": 2499.5250218475194,
     "pricing_policy": "cached_pool_recursive_stateview_fail_closed"
   },
   "portfolio": {
     "priced_holdings": 2,
     "unverified_holdings": 22,
-    "priced_value_usd": 1242.1155835280565
+    "priced_value_usd": 1241.2600389203465
   }
 }
