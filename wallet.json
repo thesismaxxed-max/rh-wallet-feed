@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at_unix": 1791833473,
+  "generated_at_unix": 1791833774,
   "chain_id": 4663,
-  "latest_block": 86921411,
+  "latest_block": 86924382,
   "wallet": "0x266f988ad1cb827863b25fa161bfab6d23b05de5",
   "native_eth": "0.02278248123714642",
   "holding_count": 26,
@@ -33,7 +33,7 @@
       "decimals": 18,
       "balance_raw": "211866872476840",
       "balance": "0.00021186687247684",
-      "total_supply_raw": "37418441422750690049957",
+      "total_supply_raw": "37398750718276742904880",
       "newly_discovered": false,
       "pricing": {
         "usd_price": null,
@@ -75,10 +75,10 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
-        "block": 86921990,
-        "usd_price": 0.020138264003080913,
-        "position_value_usd": 641.619008468385,
-        "eth_usd": 2515.5312253658294,
+        "block": 86924946,
+        "usd_price": 0.019845342981037115,
+        "position_value_usd": 632.2863422716097,
+        "eth_usd": 2516.286974994643,
         "price_confidence": {
           "label": "MEDIUM",
           "score": 69
@@ -95,9 +95,9 @@
             "token_side": "currency1",
             "quote_asset": "ETH",
             "quote_contract": null,
-            "quote_per_token": 8.005571069845194e-06,
+            "quote_per_token": 7.886756629211325e-06,
             "active_liquidity_raw": "79107051916657410895045",
-            "tick": 117359,
+            "tick": 117509,
             "poolkey_verified": false,
             "verification": "EXACT_TOKEN_TRANSFER_SWAP_ACTIVITY_PLUS_STATEVIEW"
           }
@@ -271,10 +271,10 @@
       "newly_discovered": false,
       "pricing": {
         "contract": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
-        "block": 86921990,
-        "usd_price": 0.0028447559307411183,
-        "position_value_usd": 568.9536730284727,
-        "eth_usd": 2515.5312253658294,
+        "block": 86924946,
+        "usd_price": 0.002843806405756489,
+        "position_value_usd": 568.763767201474,
+        "eth_usd": 2516.286974994643,
         "price_confidence": {
           "label": "HIGH",
           "score": 100
@@ -291,9 +291,9 @@
             "token_side": "currency1",
             "quote_asset": "ETH",
             "quote_contract": null,
-            "quote_per_token": 1.1308768112498426e-06,
+            "quote_per_token": 1.130159808486289e-06,
             "active_liquidity_raw": "93960097737033371164165",
-            "tick": 136932,
+            "tick": 136938,
             "poolkey_verified": true,
             "verification": "POOLKEY_HASH_MATCH"
           }
@@ -479,7 +479,7 @@
       "decimals": 18,
       "balance_raw": "1000000000000000000",
       "balance": "1",
-      "total_supply_raw": "5502122066000000000000000000",
+      "total_supply_raw": "5502122078000000000000000000",
       "newly_discovered": false,
       "pricing": {
         "usd_price": null,
@@ -553,14 +553,14 @@
   "new_contracts_seen": [],
   "enrichment": {
     "version": "recursive_v2",
-    "generated_at_unix": 1791833474,
-    "block": 86921990,
-    "eth_usd": 2515.5312253658294,
+    "generated_at_unix": 1791833774,
+    "block": 86924946,
+    "eth_usd": 2516.286974994643,
     "pricing_policy": "cached_pool_recursive_stateview_fail_closed"
   },
   "portfolio": {
     "priced_holdings": 3,
     "unverified_holdings": 23,
-    "priced_value_usd": 1219.4221644968577
+    "priced_value_usd": 1209.8995924730837
   }
 }
